@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "AplusGlobalConnect",
+    "slug": "aplus-global-connect",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "aplusglobalconnect",
+    "userInterfaceStyle": "light",
+    "plugins": ["expo-router"],
+    "web": { "bundler": "metro" }
+  }
+}
