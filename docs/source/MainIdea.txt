@@ -1,0 +1,16 @@
+User: review this file and organize into appropriate folders. I need you to help me create a mobile app "AplusGlobalConnect" Which will function as a Digital marketing hub. From here The user will be able to upload directly to facebook, Instagram, TikTok, Twitter, Whatsapp, etc. with interactive visual dashboards to track progress of current campaigns and a mini crm type of set up to track different campaings and clients. From here user will be able to make contact with client via email, so we will need a gmail/outlook connector, or via Text, so we will need a obile phone/imessage connector. Here user will be able to upload via drag and drop files or repositories to structure into campaign. Here user can set up llive ticket sales website/app. this can be done via manus,claude,chatgpt,wix, etc.
+
+This app will also have an AI agent to help keep everything organized. The user will chose which model he prefers kind of like how visual code allows users. 
+
+Main purpose and goal of our current session is to map this app/websites out and intergrate into 1. 
+For the moment we are focused strictly on functionality. We will review and touch up aesthetics later after we have verified the main components are performing as we intend.
+
+use these files I have uploaded to get a sense of where I am at right nnow and what I still need to do. 
+
+When analyzing these files segment by category. 
+AplusGlobal app, La septima Banda digital marketing campaing, El gueros barbershop website, etc. Use everything you need from these files and if you are missing any information let me know. 
+Keep the "La Septima Banda" as place holder to test out AplusGlobal Connect App's digital marketing hub.
+
+Provide analysis and clear instructions on how to proceed immediately in .md file format and .zip file with updated project after each key improvement. Remember this is to be a modular app/system so keep that in mind when creating different parts of it.
+
+GitHub Copilot: 
