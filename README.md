@@ -17,6 +17,10 @@ Core React Native and Expo marketing hub for campaigns, clients, publishing, ana
 5. One social provider end to end
 6. AI and payments through server Functions only
 
+## Current milestone
+
+The Expo Router shell is published with local typed campaign and client data. Firebase authentication, tenant-safe rules, and server integrations are intentionally not connected yet.
+
 ## Folders
 
 - `code/`: app, services, models, and Functions
