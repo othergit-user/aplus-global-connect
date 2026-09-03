@@ -1,3 +1,6 @@
+@@
+ import { StyleSheet, Text, View } from 'react-native';
++import { campaigns } from '../../data/campaigns';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function DashboardScreen() {
@@ -6,6 +9,11 @@ export default function DashboardScreen() {
       <Text style={styles.kicker}>OVERVIEW</Text>
       <Text style={styles.title}>Good morning.</Text>
       <Text style={styles.subtitle}>Your workspace foundation is ready for data.</Text>
+      <View style={styles.featured}>
+        <Text style={styles.featuredLabel}>NEXT CAMPAIGN</Text>
+        <Text style={styles.featuredTitle}>{campaigns[0].name}</Text>
+        <Text style={styles.featuredMeta}>{campaigns[0].clientName} · {campaigns[0].status}</Text>
+      </View>
       <View style={styles.metricRow}>
         <Metric label="Active campaigns" value="0" />
         <Metric label="Clients" value="0" />
@@ -23,6 +31,10 @@ const styles = StyleSheet.create({
   kicker: { color: '#b54a2b', fontSize: 12, fontWeight: '700', letterSpacing: 2, marginTop: 18 },
   title: { color: '#202522', fontSize: 32, fontWeight: '700', marginTop: 8 },
   subtitle: { color: '#5f665f', fontSize: 16, marginTop: 8 },
+  featured: { backgroundColor: '#202522', borderRadius: 8, marginTop: 28, padding: 20 },
+  featuredLabel: { color: '#e7b85c', fontSize: 11, fontWeight: '700', letterSpacing: 2 },
+  featuredTitle: { color: '#fff', fontSize: 20, fontWeight: '700', marginTop: 10 },
+  featuredMeta: { color: '#d6d9d2', fontSize: 14, marginTop: 8, textTransform: 'capitalize' },
   metricRow: { flexDirection: 'row', marginTop: 32 },
   metric: { backgroundColor: '#fff', borderRadius: 8, flex: 1, marginRight: 12, padding: 18 },
   value: { color: '#202522', fontSize: 30, fontWeight: '700' },
