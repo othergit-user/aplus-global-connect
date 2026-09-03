@@ -1,7 +1,5 @@
-@@
- import { StyleSheet, Text, View } from 'react-native';
-+import { campaigns } from '../../data/campaigns';
 import { StyleSheet, Text, View } from 'react-native';
+import { campaigns } from '../../data/campaigns';
 
 export default function DashboardScreen() {
   return (
